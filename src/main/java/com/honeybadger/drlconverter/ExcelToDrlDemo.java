@@ -7,6 +7,12 @@ import java.io.InputStream;
 import org.drools.decisiontable.InputType;
 import org.drools.decisiontable.SpreadsheetCompiler;
 
+
+/**
+ * Pretty much a cut and paste from another author.
+ * 
+ * http://techalpine.com/how-to-convert-decision-table-excel-spread-sheet-to-a-drl-file-in-drools/
+ */
 public class ExcelToDrlDemo {
 
     public static void main(String args[]) {
