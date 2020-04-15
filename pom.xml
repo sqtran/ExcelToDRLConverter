@@ -4,28 +4,31 @@
   <artifactId>drlconverter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  	<api.version>5.3.1.Final</api.version>
+  </properties>
   
   <dependencies>
           <dependency>
             <groupId>org.drools</groupId>
             <artifactId>knowledge-api</artifactId>
-            <version>5.3.1.Final</version>
+            <version>${api.version}</version>
         </dependency>
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-core</artifactId>
-            <version>5.3.1.Final</version>
+            <version>${api.version}</version>
         </dependency>
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-compiler</artifactId>
             <scope>runtime</scope>
-            <version>5.3.1.Final</version>
+            <version>${api.version}</version>
         </dependency>
         <dependency>
             <groupId>org.drools</groupId>
             <artifactId>drools-decisiontables</artifactId>
-            <version>5.3.1.Final</version>
+            <version>${api.version}</version>
         </dependency>
   
   </dependencies>
