@@ -33,7 +33,7 @@ public class ExcelToDrlDemo {
         String drl = sc.compile(is, InputType.XLS);
 
         // check the generated (.drl) file
-        System.out.println("Generate DRL file is –: ");
+        System.out.println("Generated DRL file is –: \n\n");
         System.out.println(drl);
     }
 }
